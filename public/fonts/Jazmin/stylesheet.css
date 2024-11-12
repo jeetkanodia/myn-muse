@@ -1,0 +1,360 @@
+@font-face {
+    font-family: 'Jazmin Alt Black It';
+    src: url('JazminAlt-BlackIt.eot');
+    src: local('Jazmin Alt Black It'), local('JazminAlt-BlackIt'),
+        url('JazminAlt-BlackIt.eot?#iefix') format('embedded-opentype'),
+        url('JazminAlt-BlackIt.woff2') format('woff2'),
+        url('JazminAlt-BlackIt.woff') format('woff'),
+        url('JazminAlt-BlackIt.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Jazmin Alt ExtraLight It';
+    src: url('JazminAlt-ExtraLightIt.eot');
+    src: local('Jazmin Alt ExtraLight It'), local('JazminAlt-ExtraLightIt'),
+        url('JazminAlt-ExtraLightIt.eot?#iefix') format('embedded-opentype'),
+        url('JazminAlt-ExtraLightIt.woff2') format('woff2'),
+        url('JazminAlt-ExtraLightIt.woff') format('woff'),
+        url('JazminAlt-ExtraLightIt.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Jazmin Alt';
+    src: url('JazminAlt-Black.eot');
+    src: local('Jazmin Alt Black'), local('JazminAlt-Black'),
+        url('JazminAlt-Black.eot?#iefix') format('embedded-opentype'),
+        url('JazminAlt-Black.woff2') format('woff2'),
+        url('JazminAlt-Black.woff') format('woff'),
+        url('JazminAlt-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Jazmin Alt';
+    src: url('JazminAlt-Bold.eot');
+    src: local('Jazmin Alt Bold'), local('JazminAlt-Bold'),
+        url('JazminAlt-Bold.eot?#iefix') format('embedded-opentype'),
+        url('JazminAlt-Bold.woff2') format('woff2'),
+        url('JazminAlt-Bold.woff') format('woff'),
+        url('JazminAlt-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Jazmin Alt Bold It';
+    src: url('JazminAlt-BoldIt.eot');
+    src: local('Jazmin Alt Bold It'), local('JazminAlt-BoldIt'),
+        url('JazminAlt-BoldIt.eot?#iefix') format('embedded-opentype'),
+        url('JazminAlt-BoldIt.woff2') format('woff2'),
+        url('JazminAlt-BoldIt.woff') format('woff'),
+        url('JazminAlt-BoldIt.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Jazmin Alt Light It';
+    src: url('JazminAlt-LightIt.eot');
+    src: local('Jazmin Alt Light It'), local('JazminAlt-LightIt'),
+        url('JazminAlt-LightIt.eot?#iefix') format('embedded-opentype'),
+        url('JazminAlt-LightIt.woff2') format('woff2'),
+        url('JazminAlt-LightIt.woff') format('woff'),
+        url('JazminAlt-LightIt.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Jazmin Alt';
+    src: url('JazminAlt-SemiBold.eot');
+    src: local('Jazmin Alt SemiBold'), local('JazminAlt-SemiBold'),
+        url('JazminAlt-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('JazminAlt-SemiBold.woff2') format('woff2'),
+        url('JazminAlt-SemiBold.woff') format('woff'),
+        url('JazminAlt-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Jazmin Black It';
+    src: url('Jazmin-BlackIt.eot');
+    src: local('Jazmin Black It'), local('Jazmin-BlackIt'),
+        url('Jazmin-BlackIt.eot?#iefix') format('embedded-opentype'),
+        url('Jazmin-BlackIt.woff2') format('woff2'),
+        url('Jazmin-BlackIt.woff') format('woff'),
+        url('Jazmin-BlackIt.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Jazmin Alt';
+    src: url('JazminAlt-Medium.eot');
+    src: local('Jazmin Alt Medium'), local('JazminAlt-Medium'),
+        url('JazminAlt-Medium.eot?#iefix') format('embedded-opentype'),
+        url('JazminAlt-Medium.woff2') format('woff2'),
+        url('JazminAlt-Medium.woff') format('woff'),
+        url('JazminAlt-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Jazmin ExtraLight It';
+    src: url('Jazmin-ExtraLightIt.eot');
+    src: local('Jazmin ExtraLight It'), local('Jazmin-ExtraLightIt'),
+        url('Jazmin-ExtraLightIt.eot?#iefix') format('embedded-opentype'),
+        url('Jazmin-ExtraLightIt.woff2') format('woff2'),
+        url('Jazmin-ExtraLightIt.woff') format('woff'),
+        url('Jazmin-ExtraLightIt.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Jazmin Alt SemiBold It';
+    src: url('JazminAlt-SemiBoldIt.eot');
+    src: local('Jazmin Alt SemiBold It'), local('JazminAlt-SemiBoldIt'),
+        url('JazminAlt-SemiBoldIt.eot?#iefix') format('embedded-opentype'),
+        url('JazminAlt-SemiBoldIt.woff2') format('woff2'),
+        url('JazminAlt-SemiBoldIt.woff') format('woff'),
+        url('JazminAlt-SemiBoldIt.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Jazmin';
+    src: url('Jazmin-Medium.eot');
+    src: local('Jazmin Medium'), local('Jazmin-Medium'),
+        url('Jazmin-Medium.eot?#iefix') format('embedded-opentype'),
+        url('Jazmin-Medium.woff2') format('woff2'),
+        url('Jazmin-Medium.woff') format('woff'),
+        url('Jazmin-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Jazmin Medium It';
+    src: url('Jazmin-MediumIt.eot');
+    src: local('Jazmin Medium It'), local('Jazmin-MediumIt'),
+        url('Jazmin-MediumIt.eot?#iefix') format('embedded-opentype'),
+        url('Jazmin-MediumIt.woff2') format('woff2'),
+        url('Jazmin-MediumIt.woff') format('woff'),
+        url('Jazmin-MediumIt.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Jazmin Bold It';
+    src: url('Jazmin-BoldIt.eot');
+    src: local('Jazmin Bold It'), local('Jazmin-BoldIt'),
+        url('Jazmin-BoldIt.eot?#iefix') format('embedded-opentype'),
+        url('Jazmin-BoldIt.woff2') format('woff2'),
+        url('Jazmin-BoldIt.woff') format('woff'),
+        url('Jazmin-BoldIt.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Jazmin';
+    src: url('Jazmin-SemiBold.eot');
+    src: local('Jazmin SemiBold'), local('Jazmin-SemiBold'),
+        url('Jazmin-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('Jazmin-SemiBold.woff2') format('woff2'),
+        url('Jazmin-SemiBold.woff') format('woff'),
+        url('Jazmin-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Jazmin It';
+    src: url('Jazmin-RegularIt.eot');
+    src: local('Jazmin Regular It'), local('Jazmin-RegularIt'),
+        url('Jazmin-RegularIt.eot?#iefix') format('embedded-opentype'),
+        url('Jazmin-RegularIt.woff2') format('woff2'),
+        url('Jazmin-RegularIt.woff') format('woff'),
+        url('Jazmin-RegularIt.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Jazmin Alt';
+    src: url('JazminAlt-Regular.eot');
+    src: local('Jazmin Alt Regular'), local('JazminAlt-Regular'),
+        url('JazminAlt-Regular.eot?#iefix') format('embedded-opentype'),
+        url('JazminAlt-Regular.woff2') format('woff2'),
+        url('JazminAlt-Regular.woff') format('woff'),
+        url('JazminAlt-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Jazmin Alt';
+    src: url('JazminAlt-Light.eot');
+    src: local('Jazmin Alt Light'), local('JazminAlt-Light'),
+        url('JazminAlt-Light.eot?#iefix') format('embedded-opentype'),
+        url('JazminAlt-Light.woff2') format('woff2'),
+        url('JazminAlt-Light.woff') format('woff'),
+        url('JazminAlt-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Jazmin';
+    src: url('Jazmin-Bold.eot');
+    src: local('Jazmin Bold'), local('Jazmin-Bold'),
+        url('Jazmin-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Jazmin-Bold.woff2') format('woff2'),
+        url('Jazmin-Bold.woff') format('woff'),
+        url('Jazmin-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Jazmin Thin It';
+    src: url('Jazmin-ThinIt.eot');
+    src: local('Jazmin Thin It'), local('Jazmin-ThinIt'),
+        url('Jazmin-ThinIt.eot?#iefix') format('embedded-opentype'),
+        url('Jazmin-ThinIt.woff2') format('woff2'),
+        url('Jazmin-ThinIt.woff') format('woff'),
+        url('Jazmin-ThinIt.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Jazmin Alt It';
+    src: url('JazminAlt-RegularIt.eot');
+    src: local('Jazmin Alt Regular It'), local('JazminAlt-RegularIt'),
+        url('JazminAlt-RegularIt.eot?#iefix') format('embedded-opentype'),
+        url('JazminAlt-RegularIt.woff2') format('woff2'),
+        url('JazminAlt-RegularIt.woff') format('woff'),
+        url('JazminAlt-RegularIt.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Jazmin Light It';
+    src: url('Jazmin-LightIt.eot');
+    src: local('Jazmin Light It'), local('Jazmin-LightIt'),
+        url('Jazmin-LightIt.eot?#iefix') format('embedded-opentype'),
+        url('Jazmin-LightIt.woff2') format('woff2'),
+        url('Jazmin-LightIt.woff') format('woff'),
+        url('Jazmin-LightIt.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Jazmin Alt Medium It';
+    src: url('JazminAlt-MediumIt.eot');
+    src: local('Jazmin Alt Medium It'), local('JazminAlt-MediumIt'),
+        url('JazminAlt-MediumIt.eot?#iefix') format('embedded-opentype'),
+        url('JazminAlt-MediumIt.woff2') format('woff2'),
+        url('JazminAlt-MediumIt.woff') format('woff'),
+        url('JazminAlt-MediumIt.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Jazmin';
+    src: url('Jazmin-Regular.eot');
+    src: local('Jazmin Regular'), local('Jazmin-Regular'),
+        url('Jazmin-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Jazmin-Regular.woff2') format('woff2'),
+        url('Jazmin-Regular.woff') format('woff'),
+        url('Jazmin-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Jazmin Alt';
+    src: url('JazminAlt-ExtraLight.eot');
+    src: local('Jazmin Alt ExtraLight'), local('JazminAlt-ExtraLight'),
+        url('JazminAlt-ExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('JazminAlt-ExtraLight.woff2') format('woff2'),
+        url('JazminAlt-ExtraLight.woff') format('woff'),
+        url('JazminAlt-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Jazmin SemiBold It';
+    src: url('Jazmin-SemiBoldIt.eot');
+    src: local('Jazmin SemiBold It'), local('Jazmin-SemiBoldIt'),
+        url('Jazmin-SemiBoldIt.eot?#iefix') format('embedded-opentype'),
+        url('Jazmin-SemiBoldIt.woff2') format('woff2'),
+        url('Jazmin-SemiBoldIt.woff') format('woff'),
+        url('Jazmin-SemiBoldIt.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Jazmin';
+    src: url('Jazmin-Black.eot');
+    src: local('Jazmin Black'), local('Jazmin-Black'),
+        url('Jazmin-Black.eot?#iefix') format('embedded-opentype'),
+        url('Jazmin-Black.woff2') format('woff2'),
+        url('Jazmin-Black.woff') format('woff'),
+        url('Jazmin-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Jazmin';
+    src: url('Jazmin-ExtraLight.eot');
+    src: local('Jazmin ExtraLight'), local('Jazmin-ExtraLight'),
+        url('Jazmin-ExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('Jazmin-ExtraLight.woff2') format('woff2'),
+        url('Jazmin-ExtraLight.woff') format('woff'),
+        url('Jazmin-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Jazmin';
+    src: url('Jazmin-Light.eot');
+    src: local('Jazmin Light'), local('Jazmin-Light'),
+        url('Jazmin-Light.eot?#iefix') format('embedded-opentype'),
+        url('Jazmin-Light.woff2') format('woff2'),
+        url('Jazmin-Light.woff') format('woff'),
+        url('Jazmin-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Jazmin';
+    src: url('Jazmin-Thin.eot');
+    src: local('Jazmin Thin'), local('Jazmin-Thin'),
+        url('Jazmin-Thin.eot?#iefix') format('embedded-opentype'),
+        url('Jazmin-Thin.woff2') format('woff2'),
+        url('Jazmin-Thin.woff') format('woff'),
+        url('Jazmin-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+

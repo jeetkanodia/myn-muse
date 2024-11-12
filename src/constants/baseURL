@@ -1,0 +1,2 @@
+export const REACT_APP_API_URLL = "http://localhost:3000";
+export const REACT_APP_API_URL = "https://apismyne.iamyourstory.in/";

@@ -1,35 +1,48 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-
+import React from "react";
+import Address from "./pages/UserInputForm/Address";
+import ContextImageChat from "./pages/UserInputForm/ContextImageChat";
+import ImageUploadLayout from "./pages/UserInputForm/ImageUploadLayout";
+import OrderTrackingWeb from "./pages/UserInputForm/OrderTrackingWeb";
+import PreviewQuestions from "./pages/UserInputForm/PreviewQuestions";
+import ReAskChat from "./pages/UserInputForm/ReAskChat";
+import ReviewChat from "./pages/UserInputForm/ReviewChat";
+import ReviewReq from "./pages/UserInputForm/ReviewReq";
+import Revision from "./pages/UserInputForm/Revision";
+import TagImages from "./pages/UserInputForm/TagImages";
+import UserForm from "./pages/UserInputForm/UserForm";
+import UserImage from "./pages/UserInputForm/UserImage";
+import UserInputForm from "./pages/UserInputForm/UserInputForm";
+import UserInputFormLayout from "./pages/UserInputForm/UserInputFormLayout";
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <Route element={<UserInputFormLayout />}>
+        <Route path="user-input-form/:orderId" element={<UserInputForm />} />
+        <Route path="userform/question/:orderId" element={<UserForm />} />
+
+        <Route
+          path="userform/upload-images/:orderId"
+          element={<ImageUploadLayout />}
+        />
+        <Route path="userform/ship-address/:orderId" element={<Address />} />
+
+        <Route path="userform" element={<UserImage />}>
+          <Route
+            path="order-tracking/:orderId"
+            element={<OrderTrackingWeb />}
+          />
+          <Route path="preview/:orderId" element={<PreviewQuestions />} />
+          <Route path="revision/:orderId" element={<Revision />} />
+          <Route path="order-review/:orderId" element={<ReviewChat />} />
+          <Route path="review-request/:orderId" element={<ReviewReq />} />
+
+          <Route path="tag-images/:orderId" element={<TagImages />} />
+          <Route path="context-image/:orderId" element={<ContextImageChat />} />
+          <Route path="re-ask/:orderId" element={<ReAskChat />} />
+        </Route>
+      </Route>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
